@@ -22,6 +22,9 @@
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.studio-upper{
+  color: #2e2f42;
+}
 .nav.studio {
   color: #2e2f42;
 }
@@ -29,8 +32,9 @@
 .nav:focus {
   color: #404bbf;
 }
-.address .contacts:hover .address .contacts:focus {
-  color: #404bb;
+.address:hover,
+.address:focus {
+  color: #404bbf;
 }
 .menu {
   font-weight: 500;
@@ -49,13 +53,17 @@ font-family: 'Roboto', serif;
   text-align: center;
   letter-spacing: 0.02em;
 }
-
+.title-one{
+  font-size: 56px;
+  line-height: 1,07;
+  letter-spacing: 0.02em;
+}
 .body {
   color: #434455;
-  background-color: #ffffff;
+  background-color: white;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .main-title .order-button {
@@ -70,8 +78,8 @@ font-family: 'Roboto', serif;
 .order-button {
   cursor: pointer;
 }
-.main-title .order-button:hover 
-.main-title .order-button:focus{
+.order-button:hover 
+.order-button:focus{
   background-color: #404bbf;
 }
 .advantages-title {
@@ -123,6 +131,9 @@ font-family: 'Roboto', serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.portfolio{
+  color: #2e2f42;
+}
 .portfolio-title{
   font-size: 36px;
   line-height: 1.11;
@@ -159,4 +170,11 @@ font-family: 'Roboto', serif;
   font-weight: regular;
   font-size: 16px;
   color: #f4f4fd;
+}
+.studio{
+  color: #f4f4fd;
+}
+.footer-descr{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
