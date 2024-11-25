@@ -32,16 +32,31 @@
 .nav:focus {
   color: #404bbf;
 }
-.address:hover,
-.address:focus {
-  color: #404bbf;
-}
 .menu {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.menu:hover,
+.menu:focus
+{
+color: #404bbf;
+}
+.contacts{
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+ul{
+  list-style-type: none;
+}
+
 .main-title {
 font-family: 'Roboto', serif;
   font-weight: 700;
@@ -58,14 +73,13 @@ font-family: 'Roboto', serif;
   line-height: 1,07;
   letter-spacing: 0.02em;
 }
-.body {
+body {
   color: #434455;
   background-color: white;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
 }
-
 .main-title .order-button {
   color: white;
   background-color: #4d5ae5;
@@ -81,6 +95,7 @@ font-family: 'Roboto', serif;
 .order-button:hover 
 .order-button:focus{
   background-color: #404bbf;
+  color: white;
 }
 .advantages-title {
   font-family: 'Roboto';
