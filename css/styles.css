@@ -73,6 +73,9 @@ font-family: 'Roboto', serif;
   line-height: 1,07;
   letter-spacing: 0.02em;
 }
+a {
+  text-decoration: none;
+}
 body {
   color: #434455;
   background-color: white;
@@ -158,7 +161,6 @@ body {
   text-transform: capitalize;
 }
 .portfolio-repr {
-  background-color: #e7e9fc;
   color: #2e2f42;
   font-family: 'Roboto';
   font-weight: 500;
