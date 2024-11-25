@@ -94,7 +94,7 @@ body {
   
 }
 .order-button:hover, 
-.order-button:focus{
+.order-button:focus {
   background-color: #404bbf;
   color: white;
 }
